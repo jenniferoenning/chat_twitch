@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat Jennifer</title>
+  <link href="default.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="top-degrade"></div>
+  <div id="log" class="sl__chat__layout"></div>
+  <script type="text/template" id="chatlist_item">
+    <div data-from="{from}" data-id="{messageId}">
+      <div class="meta" >
+        <span class="badges">
+        </span>
+        <span class="name">{from}
+      </div>
+
+      <div class="message">
+        <div class="container-message">
+          {message}
+        </div>
+      </div>
+    </div>
+  </script>
+  <div class="bottom-degrade"></div>
+</body>
+</html>
