@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:700);
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&display=swap);
+
+* { box-sizing: border-box; }
+
+html, body { height: 100%; overflow: hidden; }
+
+body { background: !important; line-height: 1.5em; color: #fff;}
+
+.img-left {
+    width: 34px;
+    position: absolute;
+    left: -5px;
+    z-index: 2;
+    top: -15px;
+}
+#log>div { 
+  position: relative;
+  padding-top: 21px;
+  margin-bottom: 10px; 
+}
+#log>div { 
+  animation: bounceInUp .5s ease forwards, fadeOut 0.5s ease 0 forwards;
+  -webkit-animation: bounceInUp .5s ease forwards, fadeOut 0.5s ease 0 forwards;
+}
+
+.colon { 
+  display: none;
+}
+
+#log {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 0 10px 10px;
+}
+
+#log>div.deleted { 
+  visibility: hidden;
+}
+#log .meta {     
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 6px;
+    padding: 9px 17px;
+    line-height: 15px;
+    border-radius: 10px;
+    z-index: 1;
+    font-family: 'Roboto';
+    font-size: 19px;
+    font-weight: 900;
+    background: #dcadb3;
+}
+
+.name { 
+  padding-left: 6px;
+  padding-top: 2px;
+}
+
+#log .message {    
+  	position: relative;
+    min-height: 10px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 0 15px 15px 15px;
+    display: inline-block;
+}
+  #log .message .container-message {
+    padding: 20px 25px 24px 25;
+    border-radius: 0 10px 10px 10px;
+    display: inline-block;
+    font-family: 'Roboto';
+    font-size: 22px;
+    word-break: break-word;
+    box-shadow: 4px 4px 0px #dcadb3;
+    background-color: #272749;
+}
+
+#log .message .container-message .emote { 
+    background-image: none !important;
+}
+
+#log .message .container-message .emote img { 
+  max-width: 25px; 
+}
