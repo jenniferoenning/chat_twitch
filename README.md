@@ -1,6 +1,6 @@
-# Chat para twitch widget <3👾
+# Chat box Twitch 👾
 
-Estou utilizando no streamlabs para adicionar os códigos!
-Resultado:
+I'm using streamlabs to add the codes!
+Result:
 
  ![Index](https://i.imgur.com/j6U467v.png "Index")
